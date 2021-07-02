@@ -19,6 +19,7 @@ ul{
 li{
     display: inline-block;
     padding-top: 10px;
+    margin-right: 10px;
 }
 a:link{
     text-decoration: none;
@@ -32,11 +33,15 @@ a:link{
 .main-content{
     height: 400px;
     border-radius: 10px;
-    background-image: url(../img/banner.jpg);
-    background-size: contain;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/banner.jpg);
+    background-size: cover;
 }
 .main-content-color{
     color: white;
+    padding-top: 250px;
+    padding-left: 30px;
 }
 
 .blocks-description{
