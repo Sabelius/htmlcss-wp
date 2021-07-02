@@ -30,16 +30,24 @@ a:link{
     margin-top: 20px;
 }
 .main-content{
-    background-color: rgb(214, 214, 59);
     height: 400px;
+    border-radius: 10px;
+    background-image: url(../img/banner.jpg);
+}
+.text{
+    color: white;
 }
 .main-content2{
-    background-color: rgb(96, 167, 211);
     height: 600px;
 }
 .blocks-description{
     height: 100px;
-    background-color:rgb(80, 80, 235);
+}
+h1{
+    font-size: 40px;
+}
+h5{
+    color: lightgrey;
 }
 .clearfix::after{
     content:"";
@@ -51,18 +59,37 @@ a:link{
 }
 .block{
     float: left;
-    background-color: rgb(80, 80, 235);
     height: 480px;
 }
 .side{
     width: 25%;
 }
+.image{
+    height: 200px;
+    border-radius: 10px;
+    filter: brightness(80%);
+}
+.first-image{
+    width: 310px;
+}
+.third-image{
+    width: 310px;
+}
 .central{
     width:calc(50% - 20px);
     margin:0 10px;
 }
+.second-image{
+    width: 600px;
+} 
+h5{
+    color: black;
+}
 footer{
-    background-color: rgb(98, 26, 165);
     height: 50px;
     margin-top: 10px;
+    text-align: center;
+}
+.heart{
+    color: red;
 }
