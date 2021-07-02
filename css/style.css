@@ -37,13 +37,13 @@ a:link{
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../img/banner.jpg);
     background-size: cover;
+    background-position: center;
 }
 .main-content-color{
     color: white;
     padding-top: 250px;
     padding-left: 30px;
 }
-
 .blocks-description{
     height: 100px;
 }
@@ -72,6 +72,7 @@ h1{
     height: 200px;
     border-radius: 10px;
     filter: brightness(80%);
+    object-fit: cover;
 }
 .first-image{
     width: 310px;
@@ -88,10 +89,14 @@ h1{
 } 
 h5{
     color: black;
+    margin-top: 10px;
+}
+.article{
+    margin-top: 10px;
 }
 footer{
     height: 50px;
-    margin-top: 10px;
+    margin-top: 40px;
     text-align: center;
 }
 .heart{
